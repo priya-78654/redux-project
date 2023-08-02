@@ -1,14 +1,15 @@
-
-import './App.css';
+import './App.css'
 import React from 'react'
 import HomeContainer from './containers/HomeContainer'
+import HeaderContainer from './containers/HeaderContainer'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-     <HomeContainer />
+    <div className='App'>
+      <HeaderContainer />
+      <HomeContainer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
